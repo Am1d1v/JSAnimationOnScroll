@@ -13,17 +13,73 @@ section {
   background-color: #1f242d;
 }
 
+section h1 {
+  font-size: 45px;
+}
+section .animate {
+  opacity: 0;
+  filter: blur(6px);
+  transition: 0.5s;
+}
+section.show-animate .animate {
+  opacity: 1;
+  filter: blur(0px);
+}
+
 .section-One {
+  padding: 10px;
+  text-align: center;
   background-color: rgb(96, 30, 158);
 }
+.section-One h1 {
+  color: #fff;
+}
+.section-One p {
+  font-size: 30px;
+  color: #0ef;
+}
 .section-Two {
+  padding: 10px;
+  text-align: center;
   background-color: rgb(113, 72, 151);
 }
+.section-Two h1 {
+  color: #2935a7;
+}
+.section-Two p {
+  font-size: 30px;
+  color: #e01c4d;
+}
 .section-Three {
+  padding: 10px;
+  text-align: center;
   background-color: rgb(61, 55, 151);
 }
+.section-Three h1 {
+  color: #1fbdb0;
+}
+.section-Three p {
+  font-size: 30px;
+  color: #d400ff;
+}
 .section-Four {
+  padding: 10px;
+  text-align: center;
   background-color: rgb(53, 46, 116);
+}
+.section-Four h1 {
+  color: #fff;
+}
+.section-Four p {
+  font-size: 30px;
+  color: #0ef;
+}
+.section-Five h1 {
+  color: #fff;
+}
+.section-Five p {
+  font-size: 30px;
+  color: #0ef;
 }
 .section-Five-images {
   display: flex;

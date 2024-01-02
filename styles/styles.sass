@@ -14,17 +14,60 @@ section
     min-height: 100vh
     background-color: #1f242d
 
+section
+    h1
+        font-size: 45px    
+    & .animate
+        opacity: 0
+        filter: blur(6px)
+        transition: 0.5s
+    &.show-animate .animate
+        opacity: 1
+        filter: blur(0px)    
 
 .section
     &-One
+        padding: 10px
+        text-align: center
         background-color: rgb(96, 30, 158)
+        h1
+            color: #fff
+        p
+            font-size: 30px
+            color: #0ef    
     &-Two
+        padding: 10px
+        text-align: center
         background-color: rgb(113, 72, 151)
+        h1
+            color: #2935a7
+        p
+            font-size: 30px
+            color: #e01c4d
     &-Three
+        padding: 10px
+        text-align: center
         background-color: rgb(61, 55, 151)
+        h1
+            color: #1fbdb0
+        p
+            font-size: 30px
+            color: #d400ff
     &-Four
+        padding: 10px
+        text-align: center
         background-color: rgb(53, 46, 116)
+        h1
+            color: #fff
+        p
+            font-size: 30px
+            color: #0ef
     &-Five
+        h1
+            color: #fff
+        p
+            font-size: 30px
+            color: #0ef
         &-images
             display: flex
             gap: 30px
@@ -32,6 +75,4 @@ section
                 width: 250px
                 height: 400px
                 object-fit: cover
-          
-        
-            
+    
