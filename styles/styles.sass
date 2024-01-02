@@ -5,6 +5,33 @@
     padding: 0
     margin: 0
 
-body
-    min-height: 100vh
 
+section
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    min-height: 100vh
+    background-color: #1f242d
+
+
+.section
+    &-One
+        background-color: rgb(96, 30, 158)
+    &-Two
+        background-color: rgb(113, 72, 151)
+    &-Three
+        background-color: rgb(61, 55, 151)
+    &-Four
+        background-color: rgb(53, 46, 116)
+    &-Five
+        &-images
+            display: flex
+            gap: 30px
+            img
+                width: 250px
+                height: 400px
+                object-fit: cover
+          
+        
+            
