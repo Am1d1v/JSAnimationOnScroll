@@ -50,6 +50,12 @@ section.show-animate .animate {
   font-size: 30px;
   color: #e01c4d;
 }
+.section-Two .animate {
+  transform: translateX(100%);
+}
+.section-Two.show-animate .animate {
+  transform: translateX(0);
+}
 .section-Three {
   padding: 10px;
   text-align: center;
@@ -62,6 +68,12 @@ section.show-animate .animate {
   font-size: 30px;
   color: #d400ff;
 }
+.section-Three .animate {
+  transform: scale(0.6);
+}
+.section-Three.show-animate .animate {
+  transform: scale(1);
+}
 .section-Four {
   padding: 10px;
   text-align: center;
@@ -73,6 +85,12 @@ section.show-animate .animate {
 .section-Four p {
   font-size: 30px;
   color: #0ef;
+}
+.section-Four .animate {
+  transform: rotate(30deg);
+}
+.section-Four.show-animate .animate {
+  transform: rotate(0);
 }
 .section-Five h1 {
   color: #fff;
@@ -90,4 +108,10 @@ section.show-animate .animate {
   height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.section-Five .animate {
+  transform: rotate(60deg);
+}
+.section-Five.show-animate .animate {
+  transform: rotate(0);
 }/*# sourceMappingURL=styles.css.map */

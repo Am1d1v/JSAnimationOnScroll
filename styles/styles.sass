@@ -44,6 +44,10 @@ section
         p
             font-size: 30px
             color: #e01c4d
+        & .animate
+            transform: translateX(100%)
+        &.show-animate .animate
+            transform: translateX(0)
     &-Three
         padding: 10px
         text-align: center
@@ -53,6 +57,10 @@ section
         p
             font-size: 30px
             color: #d400ff
+        & .animate
+            transform: scale(0.6)
+        &.show-animate .animate
+            transform: scale(1)   
     &-Four
         padding: 10px
         text-align: center
@@ -62,6 +70,10 @@ section
         p
             font-size: 30px
             color: #0ef
+        & .animate
+            transform: rotate(30deg)
+        &.show-animate .animate
+            transform: rotate(0)    
     &-Five
         h1
             color: #fff
@@ -75,4 +87,8 @@ section
                 width: 250px
                 height: 400px
                 object-fit: cover
+        & .animate
+            transform: rotate(60deg)
+        &.show-animate .animate
+            transform: rotate(0)         
     
